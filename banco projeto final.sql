@@ -29,3 +29,8 @@ describe produto;
 insert into usuario(nome, email, senha, telefone, tipo) values('Luany de Freitas', 'luany@gmail.com', '!@Luany1', '315858742', 'Cliente');
 insert into usuario(nome, email, senha, telefone, tipo) values('Nathan Costa', 'nathan@gmail.com', '!@Nathan2usuario', '315656782', 'Funcionário');
 select * from usuario;
+insert into categoria(nome) values('Limpeza');
+insert into categoria(nome) values('Hortifruti');
+insert into categoria(nome) values('Padaria');
+insert into categoria(nome) values('Açougue');
+select*from categoria;
