@@ -34,3 +34,7 @@ insert into categoria(nome) values('Hortifruti');
 insert into categoria(nome) values('Padaria');
 insert into categoria(nome) values('Açougue');
 select*from categoria;
+insert into produto(nome, preco, descricao, categoria) values('Frango Resfriado', '25.90', 'Frango Resfriado', '4');
+select*from produto;
+SELECT*FROM produto WHERE codigo like 1;
+alter table produto add column imagem varchar(300);
